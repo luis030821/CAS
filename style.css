@@ -1,0 +1,80 @@
+/*header*/
+.header-text{
+    display: flex;
+    text-decoration: none;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    text-align: center;
+    margin: 20px;
+    transition: 2000ms;
+    font-size: 50px;
+    color: black;
+}
+a:hover{
+    margin: 60px;
+    transition: 2000ms;
+    font-size: 50px;   
+    color: blue;
+}
+#pc:hover{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+#icon-bi{
+    width: 230px;
+}
+#icon-shool{
+    margin: 40px;
+}
+#icon-shool:hover{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+#icon-cas{
+    width: 230px;
+}
+img:hover{
+    transition: 2000ms;
+}
+img{
+    transition: 2000ms;
+}
+.header div div img{
+    transition: 2000ms;
+}
+.header div{
+    position: relative;
+    align-items: center;
+    justify-content: center;
+}
+.header-img{
+    text-align: center;
+}
+/*contenido principal*/
+.por-main{
+    border: 3px solid black;
+    width: 90%;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+.por-main div{
+    margin: 4%;
+    border: black 1px solid;
+    display: inline-flex;
+    width: 40%;
+    height: 200px;
+    transition: 2000ms;
+    background: rgb(226, 233, 241);
+}
+hr{
+    margin-bottom: 60px;
+    transition: 2000ms;
+}
+hr:hover{
+    width: 60%;
+    transform: 2000ms;
+}
+/*contenido de proyectos*/
